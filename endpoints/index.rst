@@ -17,7 +17,8 @@ Request
 +=========================+==============================================================================================================================+
 | is_echo                 | Boolean. Default: ``false``                                                                                                  |
 +-------------------------+------------------------------------------------------------------------------------------------------------------------------+
-| previous_version_qid    | If you want to create a new version of an existing Definition, this must be the Qeios ID of the current latest version.      |
+| previous_version_qid    | | If you want to create a new version of an existing Definition,                                                             |
+|                         | | this must be the ``qeios_id`` of the current latest version.                                                               |
 +-------------------------+------------------------------------------------------------------------------------------------------------------------------+
 
 Response
