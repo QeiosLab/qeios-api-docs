@@ -159,3 +159,37 @@ Response
             }
         }
     }
+
+POST /publications/``qeios_id``/attach-tag
+------------------------------------------
+
+Attach one or more tags to a Publication.
+
+Request
+^^^^^^^
++---------------+-----------------------------------------------------------+
+| Parameter     | Value                                                     |
++===============+===========================================================+
+| tag_name      | Name (or list of names) of the tag(s) you want to attach. |
++---------------+-----------------------------------------------------------+
+
+Response
+^^^^^^^^
+HTTP 200
+
+POST /publications/``qeios_id``/detach-tag
+------------------------------------------
+
+Detach one or more tags from a Publication.
+
+Request
+^^^^^^^
++---------------+-----------------------------------------------------------+
+| Parameter     | Value                                                     |
++===============+===========================================================+
+| tag_name      | Name (or list of names) of the tag(s) you want to detach. |
++---------------+-----------------------------------------------------------+
+
+Response
+^^^^^^^^
+HTTP 200
