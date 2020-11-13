@@ -52,7 +52,7 @@ Request
 +------------+------------------------------------------------------------------------------------------+
 | body       | HTML Body.                                                                               |
 +------------+------------------------------------------------------------------------------------------+
-| abstract   | *(Articles only)* Plain text.                                                            |
+| abstract   | *(Articles only)* HTML Abstract. Only inline elements are allowed.                       |
 +------------+------------------------------------------------------------------------------------------+
 | source     | | *(Echo Definitions only)* HTML Source. Only inline elements are allowed.               |
 |            | | You probably want to specify a URI or DOI. Anyway, you are free to just use plain text.|
