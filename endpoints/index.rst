@@ -8,7 +8,7 @@ Endpoints are relative to the base URL. The base URL is ``https://www.qeios.com/
 Error responses
 ---------------
 
-When you make requests using invalid parameters you may get a 422 HTTP error that is formatted as follows:
+When you make requests using invalid parameters you may get an HTTP 422 response that is formatted as follows:
 
 .. code-block:: json
 
