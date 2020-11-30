@@ -46,7 +46,7 @@ Response
             "publication": {
                 "qeios_id": "ABCDEF",
                 "title": null,
-                ...
+                "...": "..."
             }
         },
         "links": {
@@ -83,7 +83,7 @@ Response
             "publication": {
                 "qeios_id": "ABCDEF",
                 "title": "Updated title",
-                ...
+                "...": "..."
             }
         },
         "links": {
@@ -131,11 +131,11 @@ Response
                 {
                     "first_name": "Albert",
                     "last_name": "Einstein",
-                    ...
+                    "...": "..."
                 },
                 {
                     "first_name": "National Cancer Institute (NCI)",
-                    ...
+                    "...": "..."
                 }
             ]
         }
@@ -180,7 +180,7 @@ Response
             "publication": {
                 "qeios_id": "ABCDEF",
                 "title": "The title",
-                ...
+                "...": "..."
             }
         }
     }
