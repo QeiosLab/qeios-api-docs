@@ -125,6 +125,15 @@ Response
         }
     }
 
+DELETE /publications/``qeios_id``
+---------------------------------
+
+Delete a Publication draft and all its related information. You cannot do this action on a Publication that's already ``published``.
+
+Response
+^^^^^^^^
+HTTP 204
+
 POST /publications/``qeios_id``/publish
 ---------------------------------------
 
@@ -167,11 +176,11 @@ Attach one or more tags to a Publication.
 
 Request
 ^^^^^^^
-+---------------+-----------------------------------------------------------+
-| Parameter     | Value                                                     |
-+===============+===========================================================+
-| tag_name      | Name (or list of names) of the tag(s) you want to attach. |
-+---------------+-----------------------------------------------------------+
++---------------+------------------------------------------------------------+
+| Parameter     | Value                                                      |
++===============+============================================================+
+| tag_name      | Name (or array of names) of the tag(s) you want to attach. |
++---------------+------------------------------------------------------------+
 
 Response
 ^^^^^^^^
@@ -184,11 +193,11 @@ Detach one or more tags from a Publication.
 
 Request
 ^^^^^^^
-+---------------+-----------------------------------------------------------+
-| Parameter     | Value                                                     |
-+===============+===========================================================+
-| tag_name      | Name (or list of names) of the tag(s) you want to detach. |
-+---------------+-----------------------------------------------------------+
++---------------+------------------------------------------------------------+
+| Parameter     | Value                                                      |
++===============+============================================================+
+| tag_name      | Name (or array of names) of the tag(s) you want to detach. |
++---------------+------------------------------------------------------------+
 
 Response
 ^^^^^^^^
