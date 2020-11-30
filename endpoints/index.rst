@@ -5,6 +5,22 @@ Below are described the API endpoints that Qeios makes available for third parti
 
 Endpoints are relative to the base URL. The base URL is ``https://www.qeios.com/api``. So, for example, in order to request the endpoint ``/definitions`` you should call the URL ``https://www.qeios.com/api/definitions``.
 
+Error responses
+---------------
+
+When you make requests using invalid parameters you may get a 422 HTTP error that is formatted as follows:
+
+.. code-block:: json
+
+    {
+        "message": "The given data was invalid."
+        "errors": {
+            "tag_name": [
+                "The tag name field is required."
+            ]
+        }
+    }
+
 POST /definitions
 -----------------
 
