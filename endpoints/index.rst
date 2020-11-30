@@ -13,7 +13,7 @@ When you make requests using invalid parameters you may get an HTTP 422 response
 .. code-block:: json
 
     {
-        "message": "The given data was invalid."
+        "message": "The given data was invalid.",
         "errors": {
             "tag_name": [
                 "The tag name field is required."
