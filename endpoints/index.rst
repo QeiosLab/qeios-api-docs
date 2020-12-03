@@ -185,34 +185,17 @@ Response
         }
     }
 
-POST /publications/``qeios_id``/attach-tag
+PUT /publications/``qeios_id``/tags
 ------------------------------------------
 
-Attach one or more tags to a Publication.
+Replace all the tags attached to a Publication with new ones. You can do this action on any Publication (``published`` or not).
 
 Request
 ^^^^^^^
 +---------------+------------------------------------------------------------+
 | Parameter     | Value                                                      |
 +===============+============================================================+
-| tag_name      | Name (or array of names) of the tag(s) you want to attach. |
-+---------------+------------------------------------------------------------+
-
-Response
-^^^^^^^^
-HTTP 200
-
-POST /publications/``qeios_id``/detach-tag
-------------------------------------------
-
-Detach one or more tags from a Publication.
-
-Request
-^^^^^^^
-+---------------+------------------------------------------------------------+
-| Parameter     | Value                                                      |
-+===============+============================================================+
-| tag_name      | Name (or array of names) of the tag(s) you want to detach. |
+| tag_names     | Array of the names of the tags you want to attach.         |
 +---------------+------------------------------------------------------------+
 
 Response
