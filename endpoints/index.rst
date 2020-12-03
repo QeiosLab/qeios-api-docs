@@ -195,7 +195,7 @@ Request
 +---------------+------------------------------------------------------------+
 | Parameter     | Value                                                      |
 +===============+============================================================+
-| tag_names     | Array of the names of the tags you want to attach.         |
+| tag_names     | Array of the names of the tags that you want to attach.    |
 +---------------+------------------------------------------------------------+
 
 Response
