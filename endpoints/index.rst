@@ -102,7 +102,7 @@ Request
 | Parameter         | Value                                                                                                                                                                                                                                  |
 +===================+========================================================================================================================================================================================================================================+
 | vacant_authors    | | List of vacant authors (defined as having ``first_name`` and ``last_name``).                                                                                                                                                         |
-|                   | | If you want to attribute authorship to an organization you can omit the ``last_name`` and write the organization name as ``first_name``.                                                                                             |
+|                   | | If you want to attribute authorship to an organization you can omit the ``first_name`` and write the organization name as ``last_name``.                                                                                             |
 +-------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 Example request parameters:
@@ -116,7 +116,7 @@ Example request parameters:
                 "last_name" => "Einstein"
             ],
             [
-                "first_name" => "National Cancer Institute (NCI)"
+                "last_name" => "National Cancer Institute (NCI)"
             ]
         ]
     ]
@@ -134,7 +134,7 @@ Response
                     "...": "..."
                 },
                 {
-                    "first_name": "National Cancer Institute (NCI)",
+                    "last_name": "National Cancer Institute (NCI)",
                     "...": "..."
                 }
             ]
