@@ -15,8 +15,8 @@ When you make requests using invalid parameters you may get an HTTP 422 response
     {
         "message": "The given data was invalid.",
         "errors": {
-            "tag_name": [
-                "The tag name field is required."
+            "title": [
+                "The title field is required."
             ]
         }
     }
@@ -184,20 +184,3 @@ Response
             }
         }
     }
-
-PUT /publications/``qeios_id``/tags
-------------------------------------------
-
-Replace all the tags attached to a Publication with new ones. You can do this action on any Publication (``published`` or not).
-
-Request
-^^^^^^^
-+---------------+------------------------------------------------------------+
-| Parameter     | Value                                                      |
-+===============+============================================================+
-| tag_names     | Array of the names of the tags that you want to attach.    |
-+---------------+------------------------------------------------------------+
-
-Response
-^^^^^^^^
-HTTP 200
